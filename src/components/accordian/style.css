@@ -1,0 +1,34 @@
+.wrapper
+{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper button{
+    padding: 10px 20px;
+    background-color: aliceblue;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.accordian{
+    width: 500px;
+}
+
+.item{
+    background-color: aliceblue;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.title{
+display: flex;
+align-items: center;
+justify-content: space-between;
+cursor: pointer;
+}
+.content{
+    height: auto;
+}
